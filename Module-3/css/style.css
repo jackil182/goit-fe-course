@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* outline: 2px solid red; */
+}
+
+.main{
+    width: 1200px;
+}
+
+.header{
+    padding-top: 77px;
+    padding-bottom: 103px;
+}
+
+.header-navi{
+    margin: 0 313px;
+    text-align: center;
+}
+
+.header-items{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14px;
+}
+
+.header-items a{
+    text-decoration: none;
+    color: rgba(98, 98, 98, 255);
+}
+
+.item-left{
+    margin-left: 100px;
+}
+
+.blog-post{
+    width: 420px;
+    margin-top: 100px;
+}
+
+.blog-post-img{
+    width: 420px;
+    height: 280px;
+}
+
+.blog-post-title{
+    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 30px;
+    color: rgba(98, 98, 98, 255);
+}
+
+.blog-post-tag{
+    margin: 30px 0;
+    font-family: Ubuntu-Light, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14px;
+    color: rgba(180, 173, 158, 255);
+    text-transform: uppercase;
+}
+
+
+.left-float{
+    float: left;
+    margin-left: 150px;
+}
+
+.right-float{
+    float: right;
+    margin-right: 150px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.blog-post-text{
+    height: 63px;
+    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14px;
+    color: rgba(98, 98, 98, 255);
+}
+
+.button-link{
+    margin: 54px 515px;
+    width: 164px;
+    height: 60px;
+    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 20px;
+    color: rgba(98, 98, 98, 255);
+    background-color: white;
+    border: 2px solid rgba(98, 98, 98, 255);
+}
