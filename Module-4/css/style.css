@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid gray; */
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 1125px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 467px;
+    font-family: "Open Sans", AdobeInvisFont, MyriadPro-Regular;
+    font-weight: 600;
+    font-size: 14px;
+    align-items: center;
+}
+
+.navbar-item{
+    list-style: none;
+}
+
+.navbar-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(81, 81, 81, 255);
+}
+
+.navbar-link:hover{
+    color: rgba(26, 188, 156, 255);
+}
+
+.main{
+    width: 1125px;
+    margin: 110px auto 0;
+    padding-bottom: 70px;
+}
+
+.main-title{
+    font-family: "Roboto", AdobeInvisFont, MyriadPro-Regular;
+    font-size: 48px;
+    color: rgba(81, 81, 81, 255);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.main-title:after{
+    content: "";
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: rgba(26, 188, 156, 255);
+    margin: 30px auto 0;
+}
+
+.product-list{
+    margin-top: 92px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-item{
+    height: 322px;
+    width: 255px;
+    font-size: 0px;
+    margin-bottom: 30px;
+}
+
+.product-link{
+    text-decoration: none;
+}
+
+.product-link:hover .product-name{
+    background-color: rgba(26, 188, 156, 255);
+}
+
+.product-link:hover .product-price{
+    background-color: rgb(35, 223, 185);
+}
+
+.product-img{
+}
+
+.product-info{
+    display: flex;
+    color: #fff;
+    font-family: "Roboto", AdobeInvisFont, MyriadPro-Regular;
+    font-size: 18px;
+}
+
+.product-name{
+    text-transform: uppercase;
+    width: 78%;
+    background-color: #323232;
+    padding: 12px 0 0 12px;
+    font-weight: 500;
+}
+
+.product-price{
+    width: 22%;
+    background-color: #8c8c8c;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.latest-news{
+    font-family: "Roboto", AdobeInvisFont, MyriadPro-Regular;
+    font-size: 48px;
+    color: rgba(85, 82, 82, 255);
+    text-align: center;
+    margin-top: 105px;
+    font-weight: 900;
+}
+
+.latest-news:after{
+    content: "";
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: rgba(26, 188, 156, 255);
+    margin: 30px auto 0;
+}
+
+.news-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 78px;
+}
+
+.news-item{
+    width: 350px;
+}
+
+.news-img{
+    width: 350px;
+    height: 265px;
+}
+
+.subtitle{
+    font-family: "Open Sans", AdobeInvisFont, MyriadPro-Regular;
+    font-size: 18px;
+    color: rgba(85, 82, 82, 255);
+    font-weight: 600;
+}
+
+.subtitle:after{
+    content: "";
+    display: block;
+    width: 136px;
+    height: 3px;
+    background-color: rgba(26, 188, 156, 255);
+    margin-top: 11px;
+}
+
+.news-text{
+    margin-top: 30px;
+    font-family: "Open Sans", AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14px;
+    color: rgba(85, 82, 82, 255);
+}
+
+.news-button{
+    margin-top: 16px;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    background-color: rgba(26, 188, 156, 255);
+}
+
+.news-button:hover{
+    background-color: rgb(12, 122, 141);
+}
+
+.read-more{
+    text-decoration: none;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    font-family: "Open Sans", AdobeInvisFont, MyriadPro-Regular;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 255);
+}
