@@ -95,13 +95,13 @@ only screen and (                min-resolution: 2dppx) {
 
 @media (min-width: 768px){
     .login-link:hover{
-        padding: 0.5750rem 1.rem;
+        padding: 0.5750rem 1rem;
     }
 }
 
 .intro-title{
     width: 85.7%;
-    max-width: 510px;
+    max-width: 520px;
     margin: 10% auto 0;
     color: #fff;
     font-family: "Montserrat Bold";
