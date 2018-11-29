@@ -101,7 +101,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .intro-title{
     width: 85.7%;
-    max-width: 505px;
+    max-width: 510px;
     margin: 10% auto 0;
     color: #fff;
     font-family: "Montserrat Bold";
