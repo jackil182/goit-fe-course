@@ -1,0 +1,170 @@
+@font-face{
+    font-family: "Montserrat Bold";
+    src: url("../fonts/montserrat-v12-latin-700.woff2");
+    src: url("../fonts/montserrat-v12-latin-700.woff");
+}
+
+@font-face{
+    font-family: "Roboto Light";
+    src: url("../fonts/roboto-v18-latin-300.woff2");
+    src: url("../fonts/roboto-v18-latin-300.woff");
+}
+
+.background-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bg-top@1X.png");
+    background-size: cover;
+    background-position: top;
+    color: #fff;
+    padding-top: 1.3125rem;
+}
+
+@media(min-width: 768px){
+    .background-container{
+        padding-top: 2.375rem;
+    }
+}
+
+.header-logo{
+    font-family: "Montserrat Bold";
+    font-size: 1.25rem;
+}
+
+.header-signin{
+    margin-bottom: 7.1875rem;
+}
+
+@media(min-width: 768px){
+    .header-signin{
+        margin-bottom: 9.5rem;
+    }
+}
+
+.header-toplinks{
+    color: #fff;
+    border: 2px solid transparent;
+    padding: 0.6875rem 1.125rem;
+    border-radius: 1.5rem;
+    font-family: "Montserrat Bold";
+    font-size: 0.875rem;
+}
+
+.header-toplinks:hover{
+    border-color: #fff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-title{
+    font-size: 1.875rem;
+    max-width: 21rem;
+    margin: 0 auto;
+}
+
+@media(min-width: 768px){
+    .header-title{
+        font-size: 3.25rem;
+        max-width: 32rem;
+    }
+}
+
+.header-subtitle{
+    margin-top: 1.25rem;
+    font-size: 1.125rem;
+    font-family: "Roboto Light";
+}
+
+.header-bottomlinks{
+    display: block;
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    margin: 1.25rem auto 8.75rem;
+    color: #fff;
+    font-family: "Montserrat Bold";
+    font-size: 0.875rem;
+    background-color: red;
+    border-radius: 1.5rem;
+}
+
+.header-bottomlinks:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media(min-width: 768px){
+    .header-bottomlinks{
+        width: 225px;
+    }
+}
+
+.section-title{
+    margin-top: 4.375rem;
+    font-family: "Montserrat Bold";
+    font-size: 1.375rem;
+}
+
+.section-list{
+    margin-top: 0.875rem;
+    list-style: none;
+}
+
+@media(min-width: 768px){
+    .section-list{
+        margin-top: 2rem;
+    }
+}
+
+.section-item:not(:first-child){
+    margin-top: 2.1875rem;
+}
+
+@media(min-width: 768px){
+    .section-item:nth-child(-n+2){
+        margin-top: 3.625rem;
+    }
+}
+
+@media(min-width: 992px){
+    .section-item:not(:first-child){
+        margin-top: 0;
+    }
+
+    .section-item:nth-child(-n+2){
+        margin-top: 0;
+    }
+}
+
+.img-container{
+    width: 7.6875rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.item-img{
+    border-radius: 50%;
+}
+
+.img-icon{
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.section-link{
+    display: block;
+    width: 280px;
+    height: 40px;
+    line-height: 36px;
+    margin: 2.5rem auto 4.375rem;
+    color: #f00;
+    border: 2px solid red;
+    border-radius: 1.5rem;
+}
+
+@media(min-width: 768px){
+    .section-link{
+        width: 195px;
+    }
+}
