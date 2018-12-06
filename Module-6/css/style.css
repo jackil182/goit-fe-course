@@ -258,7 +258,8 @@ a{
 input[type=email]{
     width: 215px;
     height: 38px;
-    border: 1px solid rgba(153, 153, 153);
+    border: 1px solid rgba(153, 153, 153, 0.418);
+    border-right: none;
     font-family: "Roboto";
     font-weight: 300;
     font-style: italic;
