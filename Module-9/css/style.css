@@ -1,7 +1,7 @@
 @font-face{
     font-family: "Montserrat Bold";
-    src: url("../fonts/montserrat-v12-latin-700.woff2");
-    src: url("../fonts/montserrat-v12-latin-700.woff");
+    src: url("../fonts/montserrat-v12-latin-600.woff");
+    src: url("../fonts/montserrat-v12-latin-600.woff2");
 }
 
 @font-face{
@@ -58,6 +58,8 @@
     font-size: 1.875rem;
     max-width: 21rem;
     margin: 0 auto;
+    font-family: "Montserrat Bold";
+
 }
 
 @media(min-width: 768px){
@@ -145,11 +147,48 @@
 }
 
 .img-icon{
-    width: 17px;
     height: 17px;
+    width: 17px;
+    fill: #fff;
+    padding: 0.5rem;
+    border: 0.25rem solid #fff;
+    border-radius: 50%;
     position: absolute;
     bottom: 0;
     right: 0;
+    box-sizing: unset;
+}
+
+.red-bg{
+    background-color: #ff4e50;
+}
+
+.yellow-bg{
+    background-color: #ffa507;
+}
+
+.green-bg{
+    background-color: #1cd7ad;
+}
+
+.blue-bg{
+    background-color: #4e73db;
+}
+
+.list-name{
+    margin-top: 1.25rem;
+    text-align: center;
+    font-family: "Montserrat Bold";
+    font-size: 0.875rem;
+    color: rgba(51, 51, 51)
+}
+
+.list-text{
+    margin-top: 1rem;
+    text-align: center;
+    font-family: "Roboto Light";
+    font-size: 0.875rem;
+    color: rgba(102, 102, 102)
 }
 
 .section-link{
@@ -167,4 +206,10 @@
     .section-link{
         width: 195px;
     }
+}
+
+.section-link:hover{
+    background-color: #ff4e50;
+    color: #fff;
+    text-decoration: none;
 }
