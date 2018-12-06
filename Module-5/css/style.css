@@ -244,4 +244,10 @@
     padding: 35px 0;
     text-align: center;
     color: rgba(255, 255, 255);
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+.footer-span{
+    color: #1abc9c;
 }
