@@ -16,11 +16,10 @@
 }
 
 .top-wrapper{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bg-top@1X.png");
+    background-image: linear-gradient(rgba(49, 38, 0, 0.274), rgba(49, 38, 0, 0.274)), url("../img/bg-top@1X.png");
     background-size: cover;
     background-position: center 0;
     text-align: center;
-    /* padding-bottom: 20%; */
     height: 100vh;
 }
 
@@ -55,7 +54,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .header-logo{
     order: 1;
-    margin-top: 34%;
+    margin-top: 115px;
 }
 
 @media (min-width: 768px){
@@ -165,7 +164,7 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .partners-title{
-    margin-top: 4.375rem;
+    margin: 4.375rem 5% 0;
     text-align: center;
     font-family: "Montserrat Bold";
     font-size: 1.375rem;
@@ -186,7 +185,7 @@ only screen and (                min-resolution: 2dppx) {
     }
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1200px){
     .partners-list{
         width: 843px;
     }
